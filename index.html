@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-image">
+            <img src="image/Text.png" alt="">
+        </div>
+        <div class="form">
+
+            <div class="form-header">
+             <div class="title">
+              <h1> Cadastro </h1> 
+              <h3> Inscreva-se em nossos cursos e transforme sua carreira!</h3s>
+             </div>
+            </div>
+             
+              <form>
+                
+                <fieldset class="grupo">
+                  <div class="campo">
+                  <label for="nome"><strong>Nome</strong></label>
+                  <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required></input>
+                  </div>
+        
+                  <div class="campo">
+                     <label for="sobrenome"><strong>Sobrenome</strong></label>
+                  <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome" required>
+                    </div>
+        
+                    <div class="campo">
+                      <label for="email"><strong>Email</strong></label>
+                      <input type="text" name="email" id="email"placeholder="Digite seu email" required>   
+                    </div>
+        
+                    <div class="campo">
+                      <label for="email"><strong>Senha</strong></label>
+                    <input type="password" name="senha" id="senha"placeholder="Digite sua senha" required>
+                </div>
+             
+              <div class="campo">
+                <p><strong>Escolha o seu curso de interesse:</strong></p>
+                
+                <label>
+                <input type="checkbox" name="Front" value="Front" checked>Front-end
+                </input>
+                </label>
+              <label>
+              <input type="checkbox" name="Back-end" value="Back-end">Back-end
+                </input>
+              </label>
+              <label>
+              <input type="checkbox" name="web" value="Web-desing">Web-desing
+                </input> </label>
+                </div>
+              </fieldset>
+        
+              
+               
+              <fieldset class="grupo1">
+        
+                <div class="campo">
+                
+                    <p><strong> Escolha a modalidade do seu curso:</strong></p>
+                     
+                    <label for="interesse1"></label>
+                    <input type="radio" id="interesse1" value="interesse1">Presencial </input>
+                    <label for="interesse2"></label>
+                    <input type="radio" id="interesse2" value="interesse2">EAD </input>
+              
+                </div>
+  
+            <div class="campo">
+              
+              <label><strong>Conte um pouco da sua experiência:</strong></label>
+              <textarea row="6" style="width: 26em" id="experiencia" nome="experiencia"></textarea>
+            </div>
+          </fieldset>
+      
+          <button class="button">
+         Continue
+          <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
+            <path clip-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z" fill-rule="evenodd"></path>
+          </svg>
+            </button>
+              
+                </form>
+              </div>
+    
+            </div>
+
+      
+
+        </div>
+        
+    </div>
+</body>
+
+</html>
